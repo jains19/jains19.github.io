@@ -1,0 +1,13 @@
+#container {
+  width: 800px;
+  margin: 0 auto;
+}
+.font-bold {
+  font-weight: bold;
+}
+.text-right {
+  text-align: right;
+}
+.text-justify {
+  text-align: justify;
+}
