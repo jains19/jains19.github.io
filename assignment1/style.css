@@ -1,0 +1,20 @@
+/*
+	Name: Sumit Jain
+	File: style.css
+	Date: 17 September 2023
+	This file contains the letter markup.
+*/
+
+#container {
+    width: 800px;
+    margin: 0 auto;
+  }
+  .font-bold {
+    font-weight: bold;
+  }
+  .text-right {
+    text-align: right;
+  }
+  .text-justify {
+    text-align: justify;
+  }
