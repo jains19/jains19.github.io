@@ -1,0 +1,93 @@
+/*
+Name: Sumit Jain 
+File: styles.css
+Date: 17 October 2023
+Description: This is a css file for our index html page
+*/
+/*
+CSS VALIDATION PASSED SUCCESSFULLY 
+<p>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!" />
+    </a>
+</p>
+*/
+body {
+    background-color: #fff;
+    color: #333;
+    margin: 0;
+    font: 1.2em / 1.2 Arial, Helvetica, sans-serif;
+  }
+
+  img {
+      max-width: 100%;
+      display: block;
+  }
+  
+  .logo {
+    font-size: 200%;
+    padding: 50px 20px;
+    margin: 0 auto;
+    max-width: 980px;
+  }
+  
+  .grid {
+    margin: 0 auto;
+    padding: 0 20px;
+    max-width: 980px;
+  }
+  
+  nav {
+    background-color: #000;
+    padding: .5em;
+    position: sticky;
+    top: 0;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: .5em 1em;
+  }
+  
+  .photos {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .feature {
+      width: 200px;
+  }
+  article img {
+    float: left;
+    margin: 0 10px 0;
+  }
+
+  article {
+    float: left;
+    width: 58%;
+    margin-right: 2%;
+  }
+  aside {
+    float: right;
+    width: 40%;
+  }
+  aside img {
+    float: left;
+    margin: 1px;
+    width: 130px;
+  }
+  .clear {
+    clear: both;
+  }

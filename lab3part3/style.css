@@ -1,0 +1,121 @@
+/*
+Name: Sumit Jain 
+File: styles.css
+Date: 17 October 2023
+Description: This is a css file for our index html page
+*/
+/*
+CSS VALIDATION PASSED SUCCESSFULLY 
+<p>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!" />
+    </a>
+</p>
+*/
+
+/* General setup */
+
+* {
+  box-sizing: border-box;
+  font-family: "Sofia", sans-serif;
+}
+
+body {
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1400px;
+  font-family: "Sofia", sans-serif;
+  line-height: 40px;
+}
+
+h1, h2 {
+  font-family: 'Dosis', sans-serif;
+}
+h1 {
+  text-align: center;
+}
+
+body li {
+  line-height: 30px;
+}
+
+.contact-info {
+  font-size: 1.5em;
+}
+/* Layout */
+
+section {
+  float: left;
+  width: 50%;
+}
+
+aside {
+  float: left;
+  width: 30%;
+}
+
+nav {
+  float: left;
+  width: 20%;
+}
+
+footer {
+  clear: both;
+}
+
+header, section, aside, nav, footer {
+  padding: 20px;
+}
+
+/* header and footer */
+
+header, footer {
+  border-top: 5px solid #a66;
+  border-bottom: 5px solid #a66;
+}
+
+/* WRITE YOUR CODE BELOW HERE */
+section > p.first-para {
+  text-indent: 30px;
+}
+a:link {
+  outline: none;
+}
+a{
+  color: #a66;
+}
+a:visited {
+  color: #a66;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #a66;
+  text-decoration: none;
+}
+a.external {
+    background: url(external-link-52.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 15px;
+    padding-right: 20px;
+}
+
+nav.menu ul li {
+  list-style-type: none;
+  border: 1px solid #a66;
+  padding: 10px;
+  text-align: center;
+  margin: 20px 0;
+}
+nav.menu ul li a:hover, a:visited, a:focus {
+  color: #a66;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+}

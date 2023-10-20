@@ -1,0 +1,57 @@
+/*
+Name: Sumit Jain 
+File: styles.css
+Date: 14 October 2023
+Description: This is a css file for our index html page
+*/
+/*
+CSS VALIDATION PASSED SUCCESSFULLY 
+<p>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!" />
+    </a>
+</p>
+*/ 
+
+body {
+    background-color: #fff;
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1em;
+    margin: 0;
+  }
+
+  h1 {
+    color: hotpink;
+    font-size: 2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom: 10px dotted purple;
+  }
+
+  h2 {
+    font-size: 1.5em;
+    font-style: italic;
+  }
+
+  .job-title {
+    color: #999999;
+    font-weight: bold;
+  }
+
+  ul {
+    background-color: #eeeeee;
+    border: 5px solid purple;
+    padding: 35px;
+  }
+
+  a:link,
+  a:visited {
+    color: #fb6542;
+  }
+
+  a:hover {
+    text-decoration: none;
+    color: green;
+  }
