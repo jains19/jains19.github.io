@@ -1,3 +1,19 @@
+/*
+Name: Sumit Jain 
+File: styles.css
+Date: 17 November 2023
+Description: This is a css file for our index html page
+*/
+/*
+CSS VALIDATION PASSED SUCCESSFULLY 
+<p>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!" />
+    </a>
+</p>
+*/ 
 html, body {
   margin: 0;
 }

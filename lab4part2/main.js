@@ -3,7 +3,7 @@
 //Date: 17 November 2023
 
 const displayedImage = document.querySelector('.displayed-img');
-const thumbBar = document.querySelector('.thumb-bar');
+const thumbBar = document.querySelector('.thumb-bar'); 
 
 const btn = document.querySelector('button');
 const overlay = document.querySelector('.overlay');
