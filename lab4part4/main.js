@@ -1,5 +1,5 @@
 //Name: Sumit Jain
-//File: main-finished.js
+//File: main.js
 //Date: 19 November 2023
 
 // set up canvas
